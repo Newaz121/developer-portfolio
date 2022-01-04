@@ -11,9 +11,7 @@ h2{
 .orange{
     color: orange;
 }
-.header{
-    display: inline;
-}
+
 .flexible-container{
     display: flex;
     padding-bottom: 150px;
@@ -62,4 +60,17 @@ h2{
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
 }
